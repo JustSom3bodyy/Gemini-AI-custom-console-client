@@ -131,7 +131,7 @@ CONFIG = types.GenerateContentConfig(
 * **`top_p` (0.0 to 1.0)**: Nucleus sampling. Controls token diversity based on cumulative probability.
 * **`top_k` (integer)**: Limits token selection to top *K* choices.
 * **`max_output_tokens`**: Maximum length of the generated response.
-* **`safety_settings`**: Configured to `BLOCK_NONE` by default in this script to prevent output truncation when discussing complex topics.
+* **`safety_settings`**: Configured to `BLOCK_NONE` by default in this script to prevent output truncation when discussing complex topics. You can use `BLOCK_ONLY_HIGH` to block when high probability of unsafe content, `BLOCK_MEDIUM_AND_ABOVE` to block when medium or high probability of unsafe content, `BLOCK_LOW_AND_ABOVE` to block when low, medium or high probability of unsafe content, `HARM_BLOCK_THRESHOLD_UNSPECIFIED` when you want threshold be unspecified, block using default threshold
 
 ---
 
