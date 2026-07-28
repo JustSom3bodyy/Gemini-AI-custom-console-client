@@ -79,7 +79,9 @@ MODEL = "gemini-2.5-flash"
 Here are recommended model options you can use:
 
 **`gemini-3.6-flash`**- - a newest, frontier-level intelligemt model optimized for real-world tasks at a higher speed and lower cost. Designed for the agentic era, it excels at code generation, agentic execution, and spatial reasoning. This model is particularly effective for rapid agentic loops involving complex coding cycles and iterations.
+
 **`gemini-3.5-flash`** - frontier-level intelligent model optimized for real-world tasks at a higher speed and lower cost. Designed for the agentic era, it excels at sub-agent deployment, multi-step workflows, and long-horizon tasks at scale. This model is particularly effective for rapid agentic loops involving complex coding cycles and iterations.
+
 **`gemini-3.5-flash-lite`** - a low-latency, cost-effective multimodal model optimized for high-throughput, low-cost execution for subagent tasks and document parsing. The model supports text, image, video, audio, and PDF inputs, and is designed for high-volume agentic workflows, simple data extraction, and applications where latency and API cost are the primary constraints.
 
 ---
